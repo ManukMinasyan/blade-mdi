@@ -1,20 +1,28 @@
 {
-    "name": "postare/blade-mdi",
-    "description": "Material Design Icons for Laravel Blade views.",
+    "name": "manukminasyan/blade-mdi",
+    "description": "Material Design Icons for Laravel Blade views. Fork of postare/blade-mdi with extended Laravel version support.",
     "keywords": ["laravel", "php", "blade", "ui", "kit", "icons", "mdi", "material", "design", "icons"],
     "license": "MIT",
-    "homepage": "https://github.com/renoki-co/blade-mdi",
+    "homepage": "https://github.com/ManukMinasyan/blade-mdi",
     "authors": [
         {
             "name": "inerba",
             "homepage": "https://github.com/inerba",
             "role": "Developer"
+        },
+        {
+            "name": "Manuk Minasyan",
+            "homepage": "https://github.com/ManukMinasyan",
+            "role": "Maintainer"
         }
     ],
     "require": {
         "php": "^8.1",
         "blade-ui-kit/blade-icons": "^1.5",
-        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0"
+    },
+    "replace": {
+        "postare/blade-mdi": "self.version"
     },
     "autoload": {
         "psr-4": {
